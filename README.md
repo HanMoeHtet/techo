@@ -1,8 +1,31 @@
 # [Techo](https://github.com/HanMoeHtet/techo) &middot; ![](https://github.com/HanMoeHtet/techo/actions/workflows/main.yml/badge.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![npm version](https://img.shields.io/npm/v/@han-moe-htet/techo.svg?style=flat)](https://www.npmjs.com/package/@han-moe-htet/techo) 
 
-Touch and echo. Genarate dynamic files from stubs. 
+Touch and echo. Genarate dynamic files from stubs. Currently supports React only.
 
-<pre>Usage: @han-moe-htet/techo [options] [command]
+## Get started
+
+```
+npm i -g @han-moe-htet/techo
+```
+
+Or install locally
+```
+npm i -D @han-moe-htet/techo
+```
+
+Generating a component file
+```
+techo make:component Button
+```
+
+If you installed locally
+```
+npx techo make:component Button
+```
+
+## Usage 
+
+<pre>Usage: techo [options] [command]
 
 Options:
   -V, --version                    output the version number
