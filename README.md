@@ -1,12 +1,11 @@
-# Techo: touch and echo
+# [Techo](https://github.com/HanMoeHtet/techo) &middot; ![](https://github.com/HanMoeHtet/techo/actions/workflows/main.yml/badge.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![npm version](https://img.shields.io/npm/v/@han-moe-htet/techo.svg?style=flat)](https://www.npmjs.com/package/@han-moe-htet/techo) 
 
-Genarate dynamic files from stubs. 
+Touch and echo. Genarate dynamic files from stubs. 
 
-<pre>Usage: techo [options] [command]
+<pre>Usage: @han-moe-htet/techo [options] [command]
 
 Options:
   -V, --version                    output the version number
-  -c, --config &lt;path&gt;              Path to config file
   -h, --help                       display help for command
 
 Commands:
