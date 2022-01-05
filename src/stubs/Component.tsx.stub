@@ -1,0 +1,10 @@
+import * as React from 'react'
+
+interface {Name}Props {
+}
+
+const {Name} = (props: {Name}Props): JSX.Element | null => {
+  
+}
+
+export default {Name};

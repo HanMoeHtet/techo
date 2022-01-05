@@ -1,0 +1,66 @@
+{
+  "name": "@han-moe-htet/techo",
+  "author": "Han Moe Htet <hapo23lert@gmail.com> (https://github.com/HanMoeHtet)",
+  "version": "0.1.3",
+  "description": "Techo: touch and echo. Genarate dynamic files from stubs.",
+  "keywords": [
+    "techo",
+    "stubs",
+    "generate",
+    "touch",
+    "echo"
+  ],
+  "homepage": "https://github.com/HamMoeHtet/techo#readme",
+  "bugs": {
+    "url": "https://github.com/HanMoeHtet/techo/issues",
+    "email": "hapo23lert@gmail.com"
+  },
+  "license": "MIT",
+  "files": [
+    "bin",
+    "dist/techo.cjs.production.min.js",
+    "dist/**/*.stub"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/techo.esm.js",
+  "bin": "bin/techo.js",
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HanMoeHtet/techo.git"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "devDependencies": {
+    "colorette": "^1.1.0",
+    "commander": "^8.3.0",
+    "fs-extra": "^8.1.0",
+    "globby": "10.0.1",
+    "husky": "^7.0.4",
+    "inquirer": "^8.2.0",
+    "is-plain-object": "^3.0.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "private": false,
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}

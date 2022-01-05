@@ -1,0 +1,7 @@
+
+interface {Name}Props {
+}
+
+export const {Name} = (props: {Name}Props): JSX.Element | null => {
+  
+}

@@ -1,0 +1,10 @@
+import * as React from 'react'
+
+interface {Name}LayoutProps {
+}
+
+const {Name}Layout = (props: {Name}LayoutProps): JSX.Element | null => {
+  
+}
+
+export default {Name}Layout;

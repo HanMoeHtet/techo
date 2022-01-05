@@ -1,0 +1,7 @@
+
+interface {Name}IconProps {
+}
+
+const {Name}Icon = (props: {Name}IconProps): JSX.Element | null => {
+  
+}

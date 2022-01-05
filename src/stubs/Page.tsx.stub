@@ -1,0 +1,10 @@
+import * as React from 'react'
+
+interface {Name}PageProps {
+}
+
+const {Name}Page = (props: {Name}PageProps): JSX.Element | null => {
+  
+}
+
+export default {Name}Page;
