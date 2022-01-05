@@ -10,9 +10,8 @@ import { MakeLayout } from './commands/make-layout.command';
 const run = async () => {
   const packageJson = require(resolve(__dirname, '../package.json'));
 
-  const program = new Command(packageJson.name)
+  const program = new Command('techo')
     .version(packageJson.version)
-    .option('-c, --config <path>', 'Path to config file')
     .exitOverride();
 
   program.addCommand(MakeComponent);
